@@ -1,0 +1,798 @@
+Script básico 
+AREA DE HOENN:
+
+	Router Petalia:
+		enable
+		configure terminal
+		hostname Petalia
+		no ip domain-lookup
+		enable secret cisco
+		line console 0
+		Password cisco
+		login
+		line vty 0 15
+		password cisco
+		banner motd #¡Solo personal autorizado!#
+		service password-encryption
+
+	Router Arrecipolis:
+		enable
+		configure terminal
+		hostname Arrecipolis
+		no ip domain-lookup
+		enable secret cisco
+		line console 0
+		Password cisco
+		login
+		line vty 0 15
+		password cisco
+		banner motd #¡Solo personal autorizado!#
+		service password-encryption
+
+	Router Malvalona:
+		enable
+		configure terminal
+		hostname Malvalona
+		no ip domain-lookup
+		enable secret cisco
+		line console 0
+		Password cisco
+		login
+		line vty 0 15
+		password cisco
+		banner motd #¡Solo personal autorizado!#
+		service password-encryption
+
+
+AREA DE ALOLA:
+
+	Router de Konikoni:
+		enable
+		configure terminal
+		hostname Konikoni
+		no ip domain-lookup
+		enable secret cisco
+		line console 0
+		Password cisco
+		login
+		line vty 0 15
+		password cisco
+		banner motd #¡Solo personal autorizado!#
+		service password-encryption
+
+	Router Hauoli:
+		enable
+		configure terminal
+		hostname Hauoli
+		no ip domain-lookup
+		enable secret cisco
+		line console 0
+		Password cisco
+		login
+		line vty 0 15
+		password cisco
+		banner motd #¡Solo personal autorizado!#
+		service password-encryption
+
+	Router Kantai:
+		enable
+		configure terminal
+		hostname Kantai
+		no ip domain-lookup
+		enable secret cisco
+		line console 0
+		Password cisco
+		login
+		line vty 0 15
+		password cisco
+		banner motd #¡Solo personal autorizado!#
+		service password-encryption
+
+	Router AldeaTapu:
+		enable
+		configure terminal
+		hostname AldeaTapu
+		no ip domain-lookup
+		enable secret cisco
+		line console 0
+		Password cisco
+		login
+		line vty 0 15
+		password cisco
+		banner motd #¡Solo personal autorizado!#
+		service password-encryption
+
+AREA DE GALAR: 
+	Router Yarda:
+		enable
+		configure terminal
+		hostname Yarda
+		no ip domain-lookup
+		enable secret cisco
+		line console 0
+		Password cisco
+		login
+		line vty 0 15
+		password cisco
+		banner motd #¡Solo personal autorizado!#
+		service password-encryption
+	
+	Router VillaHelada:
+		enable
+		configure terminal
+		hostname VillaHelada
+		no ip domain-lookup
+		enable secret cisco
+		line console 0
+		Password cisco
+		login
+		line vty 0 15
+		password cisco
+		banner motd #¡Solo personal autorizado!#
+		service password-encryption
+
+	Router Ladera:
+		enable
+		configure terminal
+		hostname Ladera
+		no ip domain-lookup
+		enable secret cisco
+		line console 0
+		Password cisco
+		login
+		line vty 0 15
+		password cisco
+		banner motd #¡Solo personal autorizado!#
+		service password-encryption
+
+AREA DE PALDEA:
+	Router Ataifor:
+		enable
+		configure terminal
+		hostname Ataifor
+		no ip domain-lookup
+		enable secret cisco
+		line console 0
+		Password cisco
+		login
+		line vty 0 15
+		password cisco
+		banner motd #¡Solo personal autorizado!#
+		service password-encryption
+
+	Router Alforno:
+		enable
+		configure terminal
+		hostname Alforno
+		no ip domain-lookup
+		enable secret cisco
+		line console 0
+		Password cisco
+		login
+		line vty 0 15
+		password cisco
+		banner motd #¡Solo personal autorizado!#
+		service password-encryption
+
+	Router Cahiz:
+		enable
+		configure terminal
+		hostname Cahiz
+		no ip domain-lookup
+		enable secret cisco
+		line console 0
+		Password cisco
+		login
+		line vty 0 15
+		password cisco
+		banner motd #¡Solo personal autorizado!#
+		service password-encryption
+
+AREA DE SINNOH:
+	Router Arena:
+		enable
+		configure terminal
+		hostname Arena
+		no ip domain-lookup
+		enable secret cisco
+		line console 0
+		Password cisco
+		login
+		line vty 0 15
+		password cisco
+		banner motd #¡Solo personal autorizado!#
+		service password-encryption
+
+	Router Corazon:
+		enable
+		configure terminal
+		hostname Corazon
+		no ip domain-lookup
+		enable secret cisco
+		line console 0
+		Password cisco
+		login
+		line vty 0 15
+		password cisco
+		banner motd #¡Solo personal autorizado!#
+		service password-encryption
+
+	Router Jubileo:
+		enable
+		configure terminal
+		hostname Jubileo
+		no ip domain-lookup
+		enable secret cisco
+		line console 0
+		Password cisco
+		login
+		line vty 0 15
+		password cisco
+		banner motd #¡Solo personal autorizado!#
+		service password-encryption
+
+	Router Hojaverde:
+		enable
+		configure terminal
+		hostname Hojaverde
+		no ip domain-lookup
+		enable secret cisco
+		line console 0
+		Password cisco
+		login
+		line vty 0 15
+		password cisco
+		banner motd #¡Solo personal autorizado!#
+		service password-encryption
+
+AREA DE KANTO/JOHTO
+	Router Lavanda:
+		enable
+		configure terminal
+		hostname Lavanda
+		no ip domain-lookup
+		enable secret cisco
+		line console 0
+		Password cisco
+		login
+		line vty 0 15
+		password cisco
+		banner motd #¡Solo personal autorizado!#
+		service password-encryption
+		
+	Router Malva:
+		enable
+		configure terminal
+		hostname Malva
+		no ip domain-lookup
+		enable secret cisco
+		line console 0
+		Password cisco
+		login
+		line vty 0 15
+		password cisco
+		banner motd #¡Solo personal autorizado!#
+		service password-encryption
+	
+	Router Olivo:
+		enable
+		configure terminal
+		hostname Olivo
+		no ip domain-lookup
+		enable secret cisco
+		line console 0
+		Password cisco
+		login
+		line vty 0 15
+		password cisco
+		banner motd #¡Solo personal autorizado!#
+		service password-encryption
+	
+	Router Paleta:
+		enable
+		configure terminal
+		hostname Paleta
+		no ip domain-lookup
+		enable secret cisco
+		line console 0
+		Password cisco
+		login
+		line vty 0 15
+		password cisco
+		banner motd #¡Solo personal autorizado!#
+		service password-encryption
+
+Configuración de interfaces
+AREA DE HOENN:
+	Router Petalia:
+		interface gig0/0/0
+		ip address 192.168.16.1 255.255.255.0
+		no shutdown 
+		exit
+		interface gig0/0/1
+		ip address 172.16.1.1 255.255.255.0
+		no shutdown 
+		exit 
+		interface se0/2/0
+		ip address 172.16.4.1 255.255.255.252
+		Clock rate 128000
+		no shutdown 
+		exit
+		interface se0/2/1
+		ip address 172.16.20.2 255.255.255.252
+		clock rate 128000
+		no shutdown 
+		exit
+
+	Router Arrecipolis:
+		interface se0/0/0
+		ip address 172.16.4.2 255.255.255.252
+		clock rate 128000
+		no shutdown 
+		exit 
+		interface gig0/0
+		ip address 172.16.9.1 255.255.255.0
+		no shutdown 
+		exit
+		interface se0/0/1
+		ip address 172.16.12.1 255.255.255.252
+		clock rate 128000
+		no shutdown 
+		exit
+
+	Router Malvalona:
+		interface se0/0/1 
+		ip address 172.16.12.2 255.255.255.252
+		clock rate 128000
+		no shutdown 
+		exit 
+		interface gig0/0
+		ip address 172.16.17.1 255.255.255.0
+		no shutdown
+		exit
+		interface se0/0/0
+		ip address 172.16.20.1 255.255.255.252
+		clock rate 128000
+		no shutdown 
+		exit
+
+AREA DE ALOLA:
+	Router Konikoni:
+		interface gig0/0/0
+		ip address 192.168.16.2 255.255.255.0
+		no shutdown 
+		exit
+		interface gig0/0/1
+		ip address 172.16.33.1 255.255.255.0
+		no shutdown 
+		exit 
+		interface se0/2/0
+		ip address 172.16.36.1 255.255.255.252
+		clock rate 128000
+		no shutdown 
+		exit 
+		interface se0/2/1
+		ip address 172.16.60.2 255.255.255.252
+		clock rate 128000
+		no shutdown
+		exit
+
+	Router Hauoli:
+		interface gig0/0
+		ip address 172.16.41.1 255.255.255.0
+		no shutdown
+		exit 
+		interface se0/0/0
+		ip address 172.16.36.2 255.255.255.252
+		clock rate 128000
+		no shutdown 
+		exit
+		interface se0/0/1
+		ip address 172.16.44.1 255.255.255.252
+		clock rate 128000
+		no shutdown 
+		exit 
+	
+	Router Kantai:
+		interface se0/0/0
+		ip address 172.16.44.2 255.255.255.252
+		clock rate 128000
+		no shutdown 
+		exit
+		interface gig0/0
+		ip address 172.16.49.1 255.255.255.0
+		no shutdown 
+		exit
+		interface se0/0/1
+		ip address 172.16.52.1 255.255.255.252
+		clock rate 128000
+		no shutdown 
+		exit
+
+	Router AldeaTapu:
+		interface se0/0/0
+		ip address 172.16.52.2 255.255.255.252
+		clock rate 128000
+		no shutdown 
+		exit 
+		interface gig0/0
+		ip address 172.16.57.1 255.255.255.0
+		no shutdown
+		exit 
+		interface se0/0/1
+		ip address 172.16.60.1 255.255.255.252
+		clock rate 128000
+		no shutdown 
+		exit
+
+AREA DE GALAR:
+	Router Yarda:
+		interface gig0/0/0
+		ip address 192.168.16.3 255.255.255.0
+		no shutdown 
+		exit 
+		interface gig0/0/1
+		ip address 172.16.65.1 255.255.255.0
+		no shutdown 
+		exit 
+		interface se0/2/0
+		ip address 172.16.68.1 255.255.255.252 
+		clock rate 128000
+		no shutdown 
+		exit 
+		interface se0/2/1
+		ip address 172.16.84.2 255.255.255.252
+		clock rate 128000
+		no shutdown 
+		exit
+
+	Router VillaHelada:
+		interface se0/0/0
+		ip address 172.16.68.2 255.255.255.252
+		clock rate 128000
+		no shutdown
+		exit 
+		interface gig0/0
+		ip address 172.16.73.1 255.255.255.0
+		no shutdown 
+		exit 
+		interface se0/0/1
+		ip address 172.16.76.1 255.255.255.252
+		clock rate 128000
+		no shutdown 
+		exit 
+
+	Router Ladera:
+		interface se0/0/0
+		ip address 172.16.76.2 255.255.255.252 
+		clock rate 128000
+		no shutdown 
+		exit 
+		interface gig0/0
+		ip address 172.16.81.1 255.255.255.0
+		no shutdown 
+		exit 
+		interface se0/0/1
+		ip address 172.16.84.1 255.255.255.252
+		clock rate 128000
+		no shutdown 
+		exit
+
+AREA DE PALDEA:
+	Router Ataifor:
+		interface gig0/0/0
+		ip address 192.168.16.4 255.255.255.0
+		no shutdown 
+		exit 
+		interface gig0/0/1
+		ip address 172.16.97.1 255.255.255.0
+		no shutdown 
+		exit 
+		interface se0/2/0
+		ip address 172.16.100.1 255.255.255.252
+		clock rate 128000
+		no shutdown 
+		exit 
+		interface se 0/2/1
+		ip address 172.16.116.2 255.255.255.252
+		clock rate 128000
+		no shutdown 
+		exit 
+
+	Router Alforno:
+		interface se0/0/0
+		ip address 172.16.100.2 255.255.255.252
+		clock rate 128000
+		no shutdown 
+		exit 
+		interface gig0/0
+		ip address 172.16.105.1 255.255.255.0
+		no shutdown
+		exit 
+		interface se0/0/1
+		ip address 172.16.108.1 255.255.255.252
+		clock rate 128000
+		no shutdown 
+		exit 
+		
+	Router Cahiz:
+		interface se0/0/1
+		ip address 172.16.108.2 255.255.255.252
+		clock rate 128000
+		no shutdown 
+		exit 
+		interface gig0/0
+		ip address 172.16.113.1 255.255.255.0
+		no shutdown 
+		exit 
+		interface se0/0/0
+		ip address 172.16.116.1 255.255.255.0
+		clock rate 128000
+		no shutdown 
+		exit 
+
+AREA DE SINNOH:
+	Router Arena:
+		interface gig0/0/0
+		ip address 192.168.16.5 255.255.255.0
+		no shutdown 
+		exit 
+		interface gig0/0/1
+		ip address 172.16.129.1 255.255.255.0
+		no shutdown 
+		exit 
+		interface se0/2/1
+		ip address 172.16.132.1 255.255.255.252
+		clock rate 128000
+		no shutdown 
+		exit 
+		interface se0/2/0
+		ip address 172.16.156.2 255.255.255.252 
+		clock rate 128000
+		no shutdown 
+		exit 
+
+	Router Corazon:
+		interface se0/0/0
+		ip address 172.16.132.2 255.255.255.252
+		clock rate 128000
+		no shutdown 
+		exit 
+		interface gig0/0
+		ip address 172.16.137.1 255.255.255.0
+		no shutdown 
+		exit 
+		interface se0/0/1
+		ip address 172.16.140.1 255.255.255.252
+		clock rate 128000
+		no shutdown 
+		exit 
+
+	Router Jubileo:
+		interface se0/0/1
+		ip address 172.16.140.2 255.255.255.252
+		clock rate 128000
+		no shutdown 
+		exit 
+		interface gig0/0
+		ip address 172.16.145.1 255.255.255.0
+		no shutdown 
+		exit 
+		interface se0/0/0
+		ip address 172.16.148.1 255.255.255.252
+		clock rate 128000
+		no shutdown 
+		exit
+	
+	Router Hojaverde:
+		interface se0/0/1
+		ip address 172.16.148.2 255.255.255.252
+		clock rate 128000
+		no shutdown 
+		exit 
+		interface gig0/0
+		ip address 172.16.153.1 255.255.255.0
+		no shutdown 
+		exit 
+		interface se0/0/0
+		ip address 172.16.156.1 255.255.255.252
+		clock rate 128000
+		no shutdown 	
+		exit
+
+AREA KANTO/JOHTO:
+	Router Lavanda:
+		interface gig0/0/0
+		ip address 192.168.16.6
+		no shutdown 
+		exit 
+		interface gig0/0/1
+		ip address 172.16.161.1 255.255.255.0
+		no shutdown 
+		exit 
+		interface se0/2/0
+		ip address 172.16.164.1 255.255.255.252 
+		clock rate 128000
+		no shutdown 
+		exit 
+		interface se0/2/1
+		ip address 172.16.188.2 255.255.255.252
+		clock rate 128000
+		no shutdown 
+		exit 
+
+	Router Malva:
+		interface se0/0/0
+		ip address 172.16.164.2 255.255.255.252
+		clock rate 128000
+		no shutdown 
+		exit 
+		interface gig0/0
+		ip address 172.16.169.1 255.255.255.0
+		no shutdown 
+		exit 
+		interface se0/0/1
+		ip address 172.16.172.1 255.255.255.252
+		clock rate 128000
+		no shutdown 
+		exit 
+		
+	Router Olivo:
+		interface se0/0/0
+		ip address 172.16.172.2 255.255.255.252
+		clock rate 128000
+		no shutdown 
+		exit 
+		interface gig0/0
+		ip address 172.16.177.1 255.255.255.0
+		no shutdown 
+		exit 
+		interface se0/0/1
+		ip address 172.16.180.1 255.255.255.252
+		clock rate 128000
+		no shutdown 
+		exit 
+	
+	Router Paleta:
+		interface se0/0/1
+		ip address 172.16.180.2 255.255.255.252
+		clock rate 128000
+		no shutdown 
+		exit 
+		interface gig0/0
+		ip address 172.16.185.1 255.255.255.0
+		no shutdown 
+		exit 
+		interface se0/0/0
+		ip address 172.16.188.1 255.255.255.252
+		clock rate 128000
+		no shutdown 
+		exit
+		
+		
+		
+
+Enrutamiento
+AREA DE HOENN:
+
+	Router Petalia:
+		ip route 172.16.8.0 255.255.248.0 172.16.4.2
+		ip route 172.16.16.0 255.255.248.0 172.16.20.1
+		ip route 172.16.32.0 255.255.224.0 gig0/0/0
+		ip route 172.16.64.0 255.255.224.0 gig0/0/0
+		ip route 172.16.96.0 255.255.224.0 gig0/0/0
+		ip route 172.16.128.0 255.255.224.0 gig0/0/0
+		ip route 172.16.160.0 255.255.224.0 gig0/0/0
+	
+	Router Arecipolis:
+		ip route 0.0.0.0 0.0.0.0 172.16.4.1
+
+	Router Malvalona:
+		ip route 0.0.0.0 0.0.0.0 172.16.20.2
+
+AREA DE ALOLA:
+	Router Konikoni:
+		ip route 172.16.40.0 255.255.248.0 172.16.36.2
+		ip route 172.16.56.0 255.255.248.0 172.16.60.1
+		ip route 172.16.48.0 255.255.248.0 172.16.36.2 10
+		ip route 172.16.48.0 255.255.248.0 172.16.60.1 20
+		ip route 172.16.0.0 255.255.224.0 gig0/0/0
+		ip route 172.16.64.0 255.255.224.0 gig0/0/0
+		ip route 172.16.96.0 255.255.224.0 gig0/0/0
+		ip route 172.16.128.0 255.255.224.0 gig0/0/0
+		ip route 172.16.160.0 255.255.224.0 gig0/0/0
+		
+	Router Hauoli:
+		ip route 172.16.48.0 255.255.248.0 172.16.44.2
+		ip route 0.0.0.0 0.0.0.0 172.16.36.1
+	
+	Router AldeaTapu:
+		ip route 172.16.48.0 255.255.248.0 172.16.52.1
+		ip route 0.0.0.0 0.0.0.0 172.16.60.2
+
+	Router Kantai:
+		ip route 0.0.0.0 0.0.0.0 172.16.44.1 10
+		ip route 0.0.0.0 0.0.0.0 172.16.52.2 20
+
+AREA DE GALAR:
+	Router Yarda:
+		ip route 172.16.72.0 255.255.248.0 172.16.68.2
+		ip route 172.16.80.0 255.255.248.0 172.16.84.1
+		ip route 172.16.0.0 255.255.224.0 gig0/0/0
+		ip route 172.16.32.0 255.255.224.0 gig0/0/0
+		ip route 172.16.96.0 255.255.224.0 gig0/0/0
+		ip route 172.16.128.0 255.255.224.0 gig0/0/0
+		ip route 172.16.160.0 255.255.224.0 gig0/0/0
+
+	Router VillaHelada:
+		ip route 0.0.0.0 0.0.0.0 172.16.68.1
+		
+	Router Ladera:
+		ip route 0.0.0.0 0.0.0.0 172.16.84.2 
+
+AREA DE PALDEA:
+	Router Ataifor:
+		ip route 172.16.104.0 255.255.248.0 172.16.100.2
+		ip route 172.16.112.0 255.255.248.0 172.16.116.1
+		ip route 172.16.0.0 255.255.224.0 gig0/0/0
+		ip route 172.16.32.0 255.255.224.0 gig0/0/0
+		ip route 172.16.64.0 255.255.224.0 gig0/0/0
+		ip route 172.16.128.0 255.255.224.0 gig0/0/0
+		ip route 172.16.160.0 255.255.224.0 gig0/0/0
+		
+	Router Alforno:
+		ip route 0.0.0.0 0.0.0.0 172.16.100.1
+
+	Router Cahiz:
+		ip route 0.0.0.0 0.0.0.0 172.16.116.2
+
+AREA DE SINNOH
+	Router Arena:
+		ip route 172.16.136.0 255.255.248.0 172.16.132.2
+		ip route 172.16.144.0 255.255.248.0 172.16.132.2
+		ip route 172.16.152.0 255.255.248.0 172.16.156.1
+		
+		ip route 172.16.0.0 255.255.224.0 gig0/0/0
+		ip route 172.16.32.0 255.255.224.0 gig0/0/0
+		ip route 172.16.64.0 255.255.224.0 gig0/0/0
+		ip route 172.16.96.0 255.255.224.0 gig0/0/0
+		ip route 172.16.160.0 255.255.224.0 gig0/0/0
+		
+	Router Corazon:
+		ip route 172.16.144.0 255.255.248.0 172.16.140.2
+		ip route 0.0.0.0 0.0.0.0 172.16.132.1
+
+	Router Hojaverde:
+		ip route 172.16.144.0 255.255.248.0 172.16.148.1
+		ip route 0.0.0.0 0.0.0.0 172.16.156.2
+
+	Router Jubileo:
+		ip route 0.0.0.0 0.0.0.0 172.16.140.1 10
+		ip route 0.0.0.0 0.0.0.0 172.16.148.2 20
+
+AREA DE KANTO/JOHTO:
+	Router Lavanda:
+		ip route 172.16.168.0 255.255.248.0 172.16.164.2
+		ip route 172.16.176.0 255.255.248.0 172.16.164.2
+		ip route 172.16.184.0 255.255.248.0 172.16.188.1
+
+		ip route 172.16.0.0 255.255.224.0 gig0/0/0
+		ip route 172.16.32.0 255.255.224.0 gig0/0/0
+		ip route 172.16.64.0 255.255.224.0 gig0/0/0
+		ip route 172.16.96.0 255.255.224.0 gig0/0/0
+		ip route 172.16.128.0 255.255.224.0 gig0/0/0
+	
+	Router Malva:
+		ip route 172.16.176.0 255.255.248.0 172.16.172.2
+		ip route 0.0.0.0 0.0.0.0 172.16.164.1
+
+	Router Paleta: 
+		ip route 172.16.176.0 255.255.248.0 172.16.180.1
+		ip route 0.0.0.0 0.0.0.0 172.16.188.2
+
+	Router Olivo: 
+		ip route 0.0.0.0 0.0.0.0 172.16.180.2 10
+		ip route 0.0.0.0 0.0.0.0 172.16.172.1 20
+		
+		
+

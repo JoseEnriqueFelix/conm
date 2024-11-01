@@ -1,0 +1,139 @@
+EIGRP:
+
+AREA DE HOENN:
+	Router Petalia:
+		router eigrp 64
+		no auto-summary
+		network 192.168.16.0 0.0.0.255
+		network 172.16.0.0 0.0.7.255
+		network 172.16.16.0 0.0.7.255
+
+	Router Areccipolis:
+		router eigrp 64
+		no auto-summary
+		network 172.16.0.0 0.0.7.255
+		network 172.16.8.0 0.0.7.255
+
+	Router Malvalona:
+		router eigrp 64
+		no auto-summary
+		network 172.16.8.0 0.0.7.255
+		network 172.16.16.0 0.0.7.255
+
+AREA DE ALOLA:
+	Router Konikoni:
+		router eigrp 64
+		no auto-summary
+		network 192.168.16.0 0.0.0.255
+		network 172.16.32.0 0.0.7.255
+		network 172.16.56.0 0.0.7.255
+	
+	Router Hauoli:
+		router eigrp 64
+		no auto-summary
+		network 172.16.32.0 0.0.7.255
+		network 172.16.40.0 0.0.7.255
+	
+	Router Kantai:
+		router eigrp 64
+		no auto-summary
+		network 172.16.40.0 0.0.7.255
+		network 172.16.48.0 0.0.7.255
+
+	Router AldeaTapu:
+		router eigrp 64
+		no auto-summary
+		network 172.16.48.0 0.0.7.255
+		network 172.16.56.0 0.0.7.255
+
+AREA DE GALAR:
+	Router Yarda:
+		router eigrp 64
+		no auto-summary
+		network 192.168.16.0 0.0.0.255
+		network 172.16.64.0 0.0.7.255
+		network 172.16.80.0 0.0.7.255
+
+	Router VillaHelada:
+		router eigrp 64
+		no auto-summary
+		network 172.16.64.0 0.0.7.255
+		network 172.16.72.0 0.0.7.255
+
+	Router Ladera:
+		router eigrp 64
+		no auto-summary
+		network 172.16.72.0 0.0.7.255
+		network 172.16.80.0 0.0.7.255
+
+AREA DE PALDEA:
+	Router Ataifor:
+		router eigrp 64
+		no auto-summary
+		network 192.168.16.0 0.0.0.255
+		network 172.16.96.0 0.0.7.255
+		network 172.16.112.0 0.7.255
+
+	Router Alforno:
+		router eigrp 64
+		no auto-summary
+		network 172.16.96.0 0.0.7.255
+		network 172.16.104.0 0.0.7.255
+
+	Router Cahiz:
+		router eigrp 64
+		no auto-summary
+		network 172.16.104.0 0.0.7.255
+		network 172.16.112.0 0.0.7.255
+
+AREA DE SINNOH:
+	Router Arena:
+		router eigrp 64
+		no auto-summary
+		network 192.168.16.0 0.0.0.255
+		network 172.16.128.0 0.0.7.255
+		network 172.16.152.0 0.0.7.255
+	 
+	Router Corazon:
+		router eigrp 64
+		no auto-summary
+		network 172.16.128.0 0.0.7.255
+		network 172.16.136.0 0.0.7.255
+
+	Router Jubileo:
+		router eigrp 64
+		no auto-summary
+		network 172.16.136.0 0.0.7.255
+		network 172.16.144.0 0.0.7.255
+
+	Router Hojaverde:
+		router eigrp 64
+		no auto-summary
+		network 172.16.144.0 0.0.7.255
+		network 172.16.152.0 0.0.7.255
+
+AREA DE KANTO/JOHTO
+	Router Lavanda:
+		router eigrp 64
+		no auto-summary
+		network 192.168.16.0 0.0.0.255
+		network 172.16.160.0 0.0.7.255
+		network 172.16.184.0 0.0.7.255
+	
+	Router Malva:
+		router eigrp 64
+		no auto-summary
+		network 172.16.160.0 0.0.7.255
+		network 172.16.168.0 0.0.7.255
+
+	Router Olivo:
+		router eigrp 64
+		no auto-summary
+		network 172.16.168.0 0.0.7.255
+		network 172.16.176.0 0.0.7.255
+
+	Router Paleta:
+		router eigrp 64
+		no auto-summary
+		network 172.16.176.0 0.0.7.255
+		network 172.16.184.0 0.0.7.255

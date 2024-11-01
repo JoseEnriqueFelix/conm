@@ -1,0 +1,160 @@
+Configuración RIP:
+
+AREA DE HOENN:
+	Router Petalia:
+		router rip 
+		version 2
+		no auto-summary
+		network 192.168.16.0
+		network 172.16.0.0
+		network 172.16.16.0
+	
+	Router Arrecipolis:
+		router rip 
+		version 2
+		no auto-summary
+		network 172.16.0.0
+		network 172.16.8.0
+	
+	Router Malvalona:
+		router rip 
+		version 2
+		no auto-summary
+		network 172.16.8.0
+		network 172.16.16.0
+
+AREA DE ALOLA:
+	Router Konikoni:
+		router rip 
+		version 2
+		no auto-summary
+		network 192.168.16.0
+		network 172.16.32.0
+		network 172.16.56.0
+
+	Router Hauoli:
+		router rip 
+		version 2
+		no auto-summary
+		network 172.16.32.0
+		network 172.16.40.0
+		
+	Router Kantai:
+		router rip 
+		version 2
+		no auto-summary
+		network 172.16.40.0
+		network 172.16.48.0
+
+	Router AldeaTapu:
+		router rip 
+		version 2
+		no auto-summary
+		network 172.16.48.0
+		network 172.16.56.0
+
+AREA DE GALAR:
+	Router Yarda:
+		router rip 
+		version 2
+		no auto-summary
+		network 192.168.16.0
+		network 172.16.64.0
+		network 172.16.80.0
+
+	Router VillaHelada:
+		router rip 
+		version 2
+		no auto-summary
+		network 172.16.64.0
+		network 172.16.72.0
+	
+	Router Ladera:
+		router rip 
+		version 2
+		no auto-summary
+		network 172.16.72.0
+		network 172.16.80.0
+
+AREA DE PALDEA:
+	Router Ataifor:
+		router rip 
+		version 2
+		no auto-summary
+		network 192.168.16.0
+		network 172.16.96.0
+		network 172.16.112.0
+
+	Router Alforno:
+		router rip 
+		version 2
+		no auto-summary
+		network 172.16.96.0
+		network 172.16.104.0
+
+	Router Cahiz:
+		router rip 
+		version 2
+		no auto-summary
+		network 172.16.104.0
+		network 172.16.112.0
+
+AREA DE SINNOH:
+	Router Arena:
+		router rip 
+		version 2
+		no auto-summary
+		network 192.168.16.0
+		network 172.16.128.0
+		network 172.16.152.0
+
+	Router Corazon:
+		router rip 
+		version 2
+		no auto-summary
+		network 172.16.128.0
+		network 172.16.136.0
+		
+	Router Jubileo:
+		router rip 
+		version 2
+		no auto-summary
+		network 172.16.136.0
+		network 172.16.144.0
+
+	Router Hojaverde:
+		router rip 
+		version 2
+		no auto-summary
+		network 172.16.144.0
+		network 172.16.152.0
+
+AREA DE KANTO/JOHTO
+	Router Lavanda:
+		router rip 
+		version 2
+		no auto-summary
+		network 192.168.16.0
+		network 172.16.160.0
+		network 172.16.184.0
+
+	Router Malva:
+		router rip 
+		version 2
+		no auto-summary
+		network 172.16.160.0
+		network 172.16.168.0
+
+	Router Olivo:
+		router rip 
+		version 2
+		no auto-summary
+		network 172.16.168.0
+		network 172.16.176.0
+
+	Router Paleta:
+		router rip 
+		version 2
+		no auto-summary
+		network 172.16.176.0
+		network 172.16.184.0

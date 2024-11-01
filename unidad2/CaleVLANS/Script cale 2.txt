@@ -1,0 +1,43 @@
+Script cale 2:
+
+
+en 
+conf t
+
+vlan 10
+name vlan10
+exit 
+
+vlan 20
+name vlan20
+exit
+
+GENERAL:
+
+interface fa0/1
+switchport mode access
+switchport access vlan 10
+exit 
+
+interface fa0/10
+switchport mode access 
+switchport access vlan 20
+exit 
+
+Switch 0:
+interface gig0/1
+switchport mode trunk
+exit
+
+Switch 1:
+interface gig0/1
+switchport mode trunk
+exit
+interface gig0/2
+switchport mode trunk
+exit
+
+Switch 2:
+interface gig0/1
+switchport mode trunk
+exit

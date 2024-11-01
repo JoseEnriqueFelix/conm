@@ -1,0 +1,23 @@
+Script cale1:
+
+en 
+conf t
+
+vlan 10
+name vlan10
+
+exit 
+
+vlan 20 
+name vlan20
+exit
+
+interface range f0/10-15
+switchport mode access
+switchport access vlan 10
+exit 
+
+interface range f0/16-20
+switchport mode access
+switchport access vlan 20
+exit

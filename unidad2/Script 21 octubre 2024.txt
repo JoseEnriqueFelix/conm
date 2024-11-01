@@ -1,0 +1,80 @@
+Script 21 octubre 2024:
+
+general :
+
+vlan 10 
+name RH
+exit 
+vlan 20
+name PRODUCCION
+exit 
+vlan 30
+name CCTV
+exit
+
+
+En especifico para uno:
+vlan 40
+name ADMIN
+exit 
+
+
+general:
+
+interface range fa0/1-5
+switchport mode access
+switchport access vlan 20
+exit 
+interface range fa0/6-10
+switchport mode access
+switchport access vlan 30
+exit
+interface range fa0/11-15
+switchport mode access
+switchport access vlan 10
+exit
+interface fa0/24
+switchport mode access
+switchport access vlan 40
+exit
+
+general:
+interface gig0/1
+switchport mode trunk
+exit 
+interface gig0/2
+switchport mode trunk
+exit 
+
+
+
+
+ROUTER:
+
+interface gig0/0.10
+encapsulation dot1Q 10
+ip address 10.10.2.1 255.255.255.0
+no shutdown 
+exit 
+
+interface gig0/0.20
+encapsulation dot1Q 20
+ip address 10.10.3.1 255.255.255.0
+no shutdown 
+exit 
+
+interface gig0/0.30
+encapsulation dot1Q 30
+ip address 10.10.4.1 255.255.255.0
+no shutdown 
+exit 
+
+interface gig0/0.40
+encapsulation dot1Q 40
+ip address 10.10.99.1 255.255.255.0
+no shutdown 
+exit 
+
+interface gig0/0 
+no shutdown 
+exit

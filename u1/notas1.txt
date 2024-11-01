@@ -1,0 +1,4 @@
+Señal: Modificacion perceptible del entorno con el objetivo de comunicar algo
+
+Atenuacion, refraccion, difraccion, etc (En caso de trabajar con ondas electromagneticas)
+

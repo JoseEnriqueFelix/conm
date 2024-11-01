@@ -1,0 +1,118 @@
+OSPF:
+
+AREA DE HOENN:
+	Router Petalia:
+		router ospf 100
+		network 192.168.16.0 0.0.0.255 area 0 
+		network 172.16.0.0 0.0.7.255 area 0
+		network 172.16.16.0 0.0.7.255 area 0
+
+	Router Areccipolis:
+		router ospf 100
+		network 172.16.0.0 0.0.7.255 area 0
+		network 172.16.8.0 0.0.7.255 area 0
+
+	Router Malvalona:
+		router ospf 100
+		network 172.16.8.0 0.0.7.255 area 0
+		network 172.16.16.0 0.0.7.255 area 0
+
+AREA DE ALOLA:
+	Router Konikoni:
+		router ospf 100
+		network 192.168.16.0 0.0.0.255 area 0
+		network 172.16.32.0 0.0.7.255 area 0
+		network 172.16.56.0 0.0.7.255 area 0
+	
+	Router Hauoli:
+		router ospf 100
+		network 172.16.32.0 0.0.7.255 area 0
+		network 172.16.40.0 0.0.7.255 area 0
+	
+	Router Kantai:
+		router ospf 100
+		network 172.16.40.0 0.0.7.255 area 0
+		network 172.16.48.0 0.0.7.255 area 0
+
+	Router AldeaTapu:
+		router ospf 100
+		network 172.16.48.0 0.0.7.255 area 0
+		network 172.16.56.0 0.0.7.255 area 0
+
+AREA DE GALAR:
+	Router Yarda:
+		router ospf 100
+		network 192.168.16.0 0.0.0.255 area 0
+		network 172.16.64.0 0.0.7.255 area 0
+		network 172.16.80.0 0.0.7.255 area 0
+
+	Router VillaHelada:
+		router ospf 100
+		network 172.16.64.0 0.0.7.255 area 0
+		network 172.16.72.0 0.0.7.255 area 0
+
+	Router Ladera:
+		router ospf 100
+		network 172.16.72.0 0.0.7.255 area 0
+		network 172.16.80.0 0.0.7.255 area 0
+
+AREA DE PALDEA:
+	Router Ataifor:
+		router ospf 100
+		network 192.168.16.0 0.0.0.255 area 0
+		network 172.16.96.0 0.0.7.255 area 0
+		network 172.16.112.0 0.0.7.255 area 0
+
+	Router Alforno:
+		router ospf 100
+		network 172.16.96.0 0.0.7.255 area 0
+		network 172.16.104.0 0.0.7.255 area 0
+
+	Router Cahiz:
+		router ospf 100
+		network 172.16.104.0 0.0.7.255 area 0
+		network 172.16.112.0 0.0.7.255 area 0
+
+AREA DE SINNOH:
+	Router Arena:
+		router ospf 100
+		network 192.168.16.0 0.0.0.255 area 0
+		network 172.16.128.0 0.0.7.255 area 0
+		network 172.16.152.0 0.0.7.255 area 0
+	
+	Router Corazon:
+		router ospf 100
+		network 172.16.128.0 0.0.7.255 area 0
+		network 172.16.136.0 0.0.7.255 area 0
+
+	Router Jubileo:
+		router ospf 100
+		network 172.16.136.0 0.0.7.255 area 0
+		network 172.16.144.0 0.0.7.255 area 0
+
+	Router Hojaverde:
+		router ospf 100
+		network 172.16.144.0 0.0.7.255 area 0
+		network 172.16.152.0 0.0.7.255 area 0
+
+AREA DE KANTO/JOHTO
+	Router Lavanda:
+		router ospf 100
+		network 192.168.16.0 0.0.0.255 area 0
+		network 172.16.160.0 0.0.7.255 area 0
+		network 172.16.184.0 0.0.7.255 area 0
+
+	Router Malva:
+		router ospf 100
+		network 172.16.160.0 0.0.7.255 area 0
+		network 172.16.168.0 0.0.7.255 area 0
+
+	Router Olivo:
+		router ospf 100
+		network 172.16.168.0 0.0.7.255 area 0
+		network 172.16.176.0 0.0.7.255 area 0
+
+	Router Paleta:
+		router ospf 100
+		network 172.16.176.0 0.0.7.255 area 0
+		network 172.16.184.0 0.0.7.255 area 0

@@ -1,0 +1,4 @@
+notas ospf:
+
+router ospf 100
+network red wildcard area 1

@@ -1,0 +1,17 @@
+en
+conf t
+
+int range f0/1-2
+channel-group 1 mode active
+int po1
+switchport mode trunk
+
+vlan 23
+name cctv 
+vlan 24
+name alarma
+
+int range f0/3-4
+channel-group 2 mode active
+int po2
+switchport mode trunk
